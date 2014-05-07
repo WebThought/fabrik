@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Juan Rodriguez - SGI</name>
+	<version>1.0.0</version>
+	<creationDate>July 2013</creationDate>
+	<author>Webthought</author>
+	<authorEmail>contact@webthought.co</authorEmail>
+	<authorUrl>http://www.webthought.co</authorUrl>
+	<copyright></copyright>
+	<description>Juan Rodriguez - Sistema de Gestión</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>				
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>		
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>params.ini</filename>
+		<filename>PIE.htc</filename>
+		<filename>PIE.php</filename>
+		<filename>templateDetails.xml</filename>		
+	</files>
+
+	<positions>
+		<position>breadcrumbs</position>
+		<position>debug</position>
+		<position>footer</position>
+		<position>hornav</position>		
+		<position>right</position>
+		<position>scripts</position>		
+		<position>top</position>		
+		<position>top-content</position>
+		<position>jquery</position>
+
+	</positions>
+
+</install>

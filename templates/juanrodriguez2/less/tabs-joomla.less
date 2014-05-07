@@ -1,0 +1,49 @@
+/* Joomla mootools tabs (grrrr) */
+dl.tabs {
+	.clearfix();
+	margin-left: 0;
+	margin-bottom: @baseLineHeight;
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+}
+.tabs dt {
+	float: left;
+	margin-bottom: -1px;
+}
+.tabs > dt > span > h3 {
+	font-size: 14px;
+	margin: 0;
+}
+.tabs > dt a {
+	display: block;
+	padding-right: 12px;
+	padding-left: 12px;
+	margin-right: 2px;
+	line-height: 14px; // keeps the overall height an even number
+	padding-top: 8px;
+	  padding-bottom: 8px;
+	  line-height: @baseLineHeight;
+	  border: 1px solid transparent;
+	  &:hover {
+	    border-color: @grayLighter @grayLighter #ddd;
+	    text-decoration: none;
+		background-color: darken(@bodyBackground, 2%);
+	  }
+}
+.tabs > dt a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: @baseLineHeight;
+  border: 1px solid transparent;
+  &:hover {
+    border-color: @grayLighter @grayLighter #ddd;
+  }
+}
+.tabs .open a,
+.tabs > .active > a:hover {
+  color: @gray;
+  background-color: @bodyBackground;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}

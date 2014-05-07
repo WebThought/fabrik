@@ -1,0 +1,99 @@
+/**
+ * @copyright Copyright (C) 2013
+ * Proyecto: Juan Rodriguez
+ * WebThought Programación Creativa - www.webthought.co
+ */
+
+/* Global Reset
+----------------------------------------------------------------------------------------------------*/
+
+/* JUMBOTRON: BOOTSTRAP TEMPLATE */
+/* Move down content because we have a fixed navbar that is 50px tall */
+body { padding-top: 50px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Ropa Sans', sans-serif; }
+a  { color: #990000; }
+a:hover, a:focus { color: #7F7F7F; }
+
+/* Set widths on the navbar form inputs since otherwise they're 100% wide */
+.navbar-form input[type="text"],
+.navbar-form input[type="password"] { width: 180px; }
+
+.button:not(td) { border: 1px solid transparent; cursor: pointer; display: inline-block; font-size: 14px; font-weight: 500; line-height: 1.42857; margin-bottom: 0; padding: 8px 12px !important; text-align: center; vertical-align: middle; white-space: nowrap; -webkit-border-radius: 4px; border-radius: 4px; }
+
+.btn { font-family: 'Ropa Sans', sans-serif; }
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active { background: #FFD300 !important; border-color: #FFD300 !important;  color: #000 !important; }
+
+.alert ul { list-style: none; margin: 0; padding: 0; }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  #content { min-height: 600px; }
+}
+
+/* Secciones - Layout
+----------------------------------------------------------------------------------------------------*/
+.navbar-brand { margin: 0 0.5em; padding: 0; }
+.navbar-brand img { width: 100px; }
+footer{ background: #e5e5e5; height: 60px; border-top: 5px solid #990000; color: #000; font-family: 'Ropa Sans', sans-serif; font-size: 18px; font-weight: normal;    text-align: left; line-height: 50px; }
+footer a.wtlink { color: #000; font-size: 12px; float: right; font-family: Tahoma,Arial,Helvetica,sans-serif; }
+footer a.wtlink img { width: 15px; display: inline-block; margin-right: 5px; }
+#content { padding-top: 20px; padding-bottom: 40px; }
+
+
+/* Menúes
+----------------------------------------------------------------------------------------------------*/
+#topbar .navbar-form { color: #FFF; }
+#topbar ul.navbar-nav > li.item-101 { display: none !important; }
+#topbar ul.navbar-nav > li { display: block !important; }
+#topbar ul.navbar-nav > li a { cursor: pointer; }
+#topbar ul.dropdown-menu li { position: relative; display: block !important; }
+#topbar ul.dropdown-menu li .caret { border-bottom: 4px solid transparent; border-top: 4px solid transparent; border-left: 4px solid #000000; display: inline-block; margin-top: 6px; vertical-align: top; width: 0; }
+#topbar ul.dropdown-menu a:hover,
+#topbar ul.dropdown-menu li.active > a { background: #990000; }
+#topbar ul.dropdown-menu ul.dropdown-menu { left: 100%; top: -8px; display: none !important; }
+#topbar ul.dropdown-menu li.parent:hover ul.dropdown-menu,
+#topbar ul.dropdown-menu ul.dropdown-menu:hover { display: block !important; }
+
+
+
+/* Contenidos
+----------------------------------------------------------------------------------------------------*/
+
+
+
+/* Módulos
+----------------------------------------------------------------------------------------------------*/
+#right .module,
+#right .moduletable { background: none repeat scroll 0 0 #F7F7F7; border: 1px solid #DFDFDF; float: left; padding: 10px 20px; margin-bottom: 20px; }
+#right .module h3,
+#right .moduletable h3 { font-family: 'Ropa Sans', sans-serif; letter-spacing: 0.08em; margin-top: 5px; }
+
+.moduletable.feed h4 a { font-family: 'Ropa Sans', sans-serif; letter-spacing: 0.08em; margin-top: 5px; color: #333; font-size: 24px; }
+
+
+/* Componentes
+----------------------------------------------------------------------------------------------------*/
+/* Fabrik */
+.fabrikWindow { position: absolute !important; display: block !important; }
+.button.advanced-search-apply  { background-color: #474949; border-color: #474949; color: #FFFFFF; }
+.button.advanced-search-clearall { background-color: #D9534F; border-color: #D9534F; color: #FFFFFF; }
+#main .fabrikForm .fabrik_buttons .btn-group > a:hover,
+#main .fabrikForm .fabrik_buttons > .btn-group > a:hover { color: #FFF !important; background: rgba(0,0,0,0.6) !important; }
+
+ul.fabrik_action { border: 0 none !important; background: transparent !important; }
+ul.fabrik_action li:first-child a { -webkit-border-radius: 4px 0px 0px 4px; border-radius: 4px 0px 0px 4px; }
+ul.fabrik_action li:last-child a { -webkit-border-radius: 0px 4px 4px 0px; border-radius: 0px 4px 4px 0px; }
+li.fabrik_edit a,
+li.fabrik_view a,
+li.fabrik_delete a { border: 1px solid transparent; cursor: pointer; display: inline-block; font-size: 14px; font-weight: 500; line-height: 1.42857; margin-bottom: 0; padding: 8px 12px; text-align: center; vertical-align: middle; white-space: nowrap; background-color: #474949; border-color: #474949; color: #FFFFFF; }
+li.fabrik_edit a,
+li.fabrik_view a { background-color: #474949; border-color: #474949; color: #FFFFFF;}
+li.fabrik_delete a { background-color: #D9534F; border-color: #D9534F; color: #FFFFFF; }
+
+.fabrikElementContainer.checkbox ul { list-style: none; }
+
+select.fabrikinput.input-large { height: auto; padding: 8px 12px; }
+
+#exportcsv .handle { height: 20px !important; }
+#exportcsv .handle .expand,
+#exportcsv .handle .close { top: 2px; }
